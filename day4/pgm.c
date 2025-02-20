@@ -31,7 +31,7 @@ int evaluatePasswordStrength(const char *password) {
 }
 
 void simulationbreach() {
-    FILE *file = fopen("C:/Users/Vidhith.KRYPTON/Desktop/Training/day4/cerdentials.txt", "r");
+    FILE *file = fopen("cerdentials.txt", "r");
     if (!file) {
         perror("Error opening credentials file");
         return;
@@ -48,7 +48,7 @@ void simulationbreach() {
 }
 
 void checkPasswordStrength() {
-    FILE *file = fopen("C:/Users/Vidhith.KRYPTON/Desktop/Training/day4/cerdentials.txt", "r");
+    FILE *file = fopen("cerdentials.txt", "r");
     if (!file) {
         perror("Error opening credentials file");
         return;
@@ -109,7 +109,7 @@ void evalulatePhishingEmail(PhishingEmail emails[], int count) {
 }
 
 void analyzeNetworkVulnerabilities() {
-    FILE *file = fopen("C:/Users/Vidhith.KRYPTON/Desktop/Training/day4/networkDevices.txt", "r");
+    FILE *file = fopen("networkDevices.txt", "r");
     if (!file) {
         perror("Error opening network devices file");
         return;
