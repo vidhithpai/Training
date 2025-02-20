@@ -1,0 +1,2 @@
+Router1, Vulnerable to XYZ
+Switch1, No known vulnerabilities
