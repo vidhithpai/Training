@@ -1,2 +1,0 @@
-user1, Password123!, CompanyA
-user2, weakpass,CompanyB
